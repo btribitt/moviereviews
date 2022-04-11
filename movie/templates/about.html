@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Welcome to About Page (HTML)</h1>
+<h3>The house is not home</h3>
+<p>Need to change /movie/views.py to render the page instead
+  of using HttpResponse.
+</p>
+<br />
+<button type="button-secondary" class="btn btn-outline-secondary">
+  <a href="{% url 'home'%}" style="text-decoration:none;">Cancel</a>
+</button>
+<!-- <a href="{% url 'home'%}">Home</a> -->
+
+{% endblock content %}
